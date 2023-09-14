@@ -37,8 +37,7 @@ poetry add system-sounds
 
 ### Usage
 
-**Listing System Sounds:**
-
+#### Listing System Sounds:
 To retrieve a list of available system sounds, use:
 ```python
 from system_sounds import list_system_sounds
@@ -47,8 +46,7 @@ sounds = list_system_sounds()
 print(sounds)
 ```
 
-**Listing User's Music:**
-
+#### Listing User's Music:
 To retrieve a list of music from the user's default music directory, use:
 ```python
 from system_sounds import list_music
@@ -57,8 +55,7 @@ music = list_music()
 print(music)
 ```
 
-**Listing Both System Sounds and Music:**
-
+#### Listing Both System Sounds and Music:
 To retrieve a combined list of system sounds and user music, use:
 ```python
 from system_sounds import list_all
@@ -67,8 +64,7 @@ all_sounds = list_all()
 print(all_sounds)
 ```
 
-**Playing a Sound:**
-
+#### Playing a Sound:
 To play a sound, use the `play_sound` function:
 ```python
 from system_sounds import play_sound
@@ -76,8 +72,7 @@ from system_sounds import play_sound
 play_sound("path_to_sound_file.wav")
 ```
 
-**Advanced Usage - Custom Directory and Extensions:**
-
+#### Advanced Usage - Custom Directory and Extensions:
 If you'd like to list files from a custom directory or look for sound files with specific extensions, utilize the `list_files_from_directory` function:
 
 ```python
@@ -91,7 +86,8 @@ print(custom_sounds)
 
 The library uses system commands to play sounds, which might not be optimal or available for every scenario. For fallback or alternative methods, consider using:
 
-- **sounddevice + soundfile:** This combination allows for playback and reading of sound files in various formats.
+#### sounddevice + soundfile:
+This combination allows for playback and reading of sound files in various formats.
   
   Installation:
   ```
@@ -108,7 +104,8 @@ The library uses system commands to play sounds, which might not be optimal or a
   sd.wait()
   ```
 
-- **playsound:** A pure Python solution without dependencies.
+#### playsound:
+A pure Python solution without dependencies.
 
   Installation:
   ```
@@ -122,7 +119,8 @@ The library uses system commands to play sounds, which might not be optimal or a
   playsound('path_to_sound_file.mp3')
   ```
 
-- **pyaudio:** Allows you to play and record audio on various platforms.
+#### pyaudio:
+Allows you to play and record audio on various platforms.
 
   Installation:
   ```
