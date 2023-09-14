@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "system-sounds"
-version = "0.1.0"
+version = "0.1.1"
 description = "list available system sound files"
 authors = ["Mark Parker <mark@parker-programs.com>"]
 license = "MIT"
