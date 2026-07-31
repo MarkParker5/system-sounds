@@ -1,3 +1,18 @@
+<!-- coffee -->
+<a href="https://buymeacoffee.com/markparker5" target="_blank" rel="noopener">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://markparker.me/banners/coffee-dark.webp"
+    />
+    <img
+      alt="Did this solve your problem? If it saved your time, you owe me a coffee"
+      src="https://markparker.me/banners/coffee-light.webp"
+      width="900"
+    />
+  </picture>
+</a>
+
 # system-sounds
 
 ## Table of Contents
