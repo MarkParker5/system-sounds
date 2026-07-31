@@ -1,5 +1,5 @@
 <!-- coffee -->
-<a href="https://buymeacoffee.com/markparker5" target="_blank" rel="noopener">
+<a href="https://buymeacoffee.com/markparker5" target="_blank">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -8,7 +8,6 @@
     <img
       alt="Did this solve your problem? If it saved your time, you owe me a coffee"
       src="https://markparker.me/banners/coffee-light.webp"
-      width="900"
     />
   </picture>
 </a>
